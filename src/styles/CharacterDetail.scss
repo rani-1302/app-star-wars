@@ -1,0 +1,17 @@
+.character-detail-container {
+  padding: 1.5rem;
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    Button {
+      width: 48%;
+    }
+  }
+}

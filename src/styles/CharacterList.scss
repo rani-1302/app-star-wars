@@ -1,0 +1,55 @@
+.character-list-container {
+  padding: 1.5rem;
+
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    div.search-bar {
+      display: inline-flex;
+      align-items: center;
+      width: 100%;
+
+      .ant-input {
+        flex: 1;
+        margin-right: 0.5rem;
+      }
+
+      .ant-btn-primary {
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+  }
+
+  .back-button-container {
+    margin-top: 1.25rem;
+    text-align: center;
+
+    .ant-btn {
+      font-size: 1rem;
+    }
+  }
+
+  .no-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+  }
+}

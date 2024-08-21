@@ -1,0 +1,21 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+.ant-card {
+  margin-bottom: 1.25rem;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+@import "./AppLayout.scss";
+@import "./CharacterCard.scss";
+@import "./CharacterDetail.scss";
+@import "./CharacterList.scss";
+@import "./FavouritesList.scss";

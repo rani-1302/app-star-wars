@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #001529;
+  padding: 0 1.25rem;
+  color: #fff;
+}
+
+h3.navbar-title {
+  color: #fff;
+  margin: 0;
+}
+
+.navbar-content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.favourites-link {
+  margin-left: 1.25rem;
+  color: white;
+}
+
+.content {
+  padding: 1.25rem;
+}
+a.navbar-title-link {
+  color: white; /* Default color */
+  text-decoration: none; /* Remove underline */
+
+  /* Override hover state */
+  &:hover {
+    color: white; /* Maintain the same color on hover */
+    text-decoration: none; /* Prevent underline on hover */
+  }
+
+  /* Override active state */
+  &:active {
+    color: white; /* Maintain the same color when active */
+    text-decoration: none; /* Prevent underline when active */
+  }
+
+  /* Override focus state */
+  &:focus {
+    color: white; /* Maintain the same color on focus */
+    text-decoration: none; /* Prevent underline on focus */
+    outline: none; /* Remove focus outline */
+  }
+}
