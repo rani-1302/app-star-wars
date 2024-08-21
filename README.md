@@ -1,6 +1,6 @@
 # Star Wars Character App
 
-This application is built using Node.js 20, Redux Toolkit, Redux Query, SCSS, and React 18. The application uses Redux Toolkit for state management and Redux Query for data fetching and caching. Redux Thunk is the middleware. Jest and React Testing library is used for TDD. Eslint and Prettier is used for code formatting and linting. Webpack is the bundler. As this was for assignment and I was not sure if i am allowed to use create-react-app or vite for boilerplate hence I have written custom configuration.
+This application is built using Node.js 20, TypeScript, Redux Toolkit, Redux Query, SCSS, and React 18. The application uses Redux Toolkit for state management and Redux Query for data fetching and caching. Redux Thunk is the middleware. Jest and React Testing library is used for TDD. Eslint and Prettier is used for code formatting and linting. Webpack is the bundler. As this was for assignment and I was not sure if i am allowed to use create-react-app or vite for boilerplate hence I have written custom configuration.
 
 ## Overview
 
